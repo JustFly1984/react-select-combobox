@@ -1,0 +1,24 @@
+:root {
+  --brown-grey: #9b9b9b;
+  --greyish-brown: #4a4a4a;
+  --scarlet: #d0021b;
+  --white: #fff;
+  --apple-green: #56a300;
+  --light-gray: #f4f4f4;
+  --default-font: 'Roboto', sans-serif;
+
+  /* poolotto */
+
+  --black: #000;
+  --azure: #00aeff;
+  --sapphire: #183197;
+  --nice-blue: #0e65c2;
+  --water-blue: #1aa5df;
+  --white-10: rgba(255, 255, 255, 0.1);
+  --very-light-pink-two: #d1d1d1;
+  --light-gold: #ffd640;
+  --macaroni-and-cheese: #eb9d34;
+  --dark-indigo: #150d3b;
+  --cobalt: #162983;
+  --sun-yellow-two: #fcd02e;
+}

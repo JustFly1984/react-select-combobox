@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "src/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "classnames",
+      "intl",
+      "node",
+      "reach__router",
+      "react-dom",
+      "react-helmet",
+      "react-redux",
+      "redux-actions",
+      "redux-debounced",
+      "webpack",
+      "webpack-env"
+    ],
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "strict": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true
+  },
+  "exclude": [
+    "node_modules",
+    "public",
+    ".cache"
+  ]
+}
