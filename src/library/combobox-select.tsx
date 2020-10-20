@@ -120,14 +120,13 @@ function ComboboxSelect({
         buttonRef.current.focus()
       }
 
-      if (onSelectChange instanceof Function) {
-        const option = get(options, index)
 
-        if (option !== undefined) {
-          onSelectChange(option.value, field)
-        }
+      const option = get(options, index)
+
+      if (option !== undefined) {
+        onSelectChange(option.value, field)
       }
-
+    
       setOpen(false)
     },
     [field, options, onSelectChange]

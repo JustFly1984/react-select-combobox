@@ -43,7 +43,6 @@ function ComboboxSelect({
   onChange,
   onBlur,
 }: Props): JSX.Element {
-  console.info('field', field)
   const dispatch = useDispatch()
 
   const onSelectChange = React.useCallback<
@@ -121,13 +120,12 @@ function ComboboxSelect({
         buttonRef.current.focus()
       }
 
-      if (onSelectChange instanceof Function) {
-        const option = get(options, index)
+      const option = get(options, index)
 
-        if (option !== undefined) {
-          onSelectChange(option.value, field)
-        }
+      if (option !== undefined) {
+        onSelectChange(option.value, field)
       }
+
 
       setOpen(false)
     },

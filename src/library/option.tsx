@@ -17,7 +17,7 @@ interface Props {
   onSelect(index: number): void
 }
 
-function Option<T extends string>({
+function Option({
   selected,
   onSelect,
   option,
